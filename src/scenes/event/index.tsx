@@ -103,9 +103,9 @@ const Event = () => {
               listPlugin,
             ]}
             headerToolbar={{
-              left: "prev, next today",
+              left: "prev,next today",
               center: "title",
-              right: "dayGridMonth, timeGridWeek, timeGridDay, listMonth",
+              right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth",
             }}
             initialView="dayGridMonth"
             editable={true}

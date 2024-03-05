@@ -9,12 +9,12 @@ import SidebarPanel from "./global/SidebarPanel";
 import Team from "./scenes/team";
 import Invoices from "./scenes/invoices";
 import Contacts from "./scenes/contacts";
-// import Bar from "./scenes/bar";
+import Bar from "./scenes/bar";
 import Profile from "./scenes/profile";
-// import Line from "./scenes/line";
-// import Pie from "./scenes/pie";
-// import FAQ from "./scenes/faq";
-// import Geogrophy from "./scenes/geogrophy";
+import Line from "./scenes/line";
+import Pie from "./scenes/pie";
+import FAQ from "./scenes/faq";
+import Geo from "./scenes/geo";
 import Event from "./scenes/event";
 
 const App = () => {
@@ -34,12 +34,11 @@ const App = () => {
               <Route path="/invoices" element={<Invoices />}></Route>
               <Route path="/form" element={<Profile />}></Route>
               <Route path="/calendar" element={<Event />}></Route>
-              {/*
+              <Route path="/faq" element={<FAQ />}></Route>
               <Route path="/bar" element={<Bar />}></Route>
               <Route path="/pie" element={<Pie />}></Route>
               <Route path="/line" element={<Line />}></Route>
-              <Route path="/faq" element={<FAQ />}></Route>
-              <Route path="/geogropghy" element={<Geogrophy />}></Route> */}
+              <Route path="/geo" element={<Geo />}></Route>
             </Routes>
           </main>
         </div>
